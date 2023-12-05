@@ -1,19 +1,26 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Container } from './ui';
-import logo from '../images/logo.svg';
 
-const StyledHeader = styled.header``;
+import diversityTravelLogo from '../images/diversityTravelLogo.svg';
+
+const StyledHeader = styled.header`
+  background: #f1ebda;
+`;
 
 const StyledInner = styled.div``;
 
-const StyledLogo = styled.img``;
+const StyledLogo = styled.img`
+  width: 99px;
+  height: 99px;
+  margin-top: 10px;
+`;
 
 const Header = () => (
   <StyledHeader>
     <Container>
       <StyledInner>
-        <StyledLogo src={logo} alt="Logo" />
+        <StyledLogo src={diversityTravelLogo} alt="Logo" />
       </StyledInner>
     </Container>
   </StyledHeader>

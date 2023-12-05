@@ -24,6 +24,7 @@ const Layout = ({ seo, children }) => {
       <GlobalStyle />
       <Header />
       {children}
+
       <Footer />
     </>
   );
